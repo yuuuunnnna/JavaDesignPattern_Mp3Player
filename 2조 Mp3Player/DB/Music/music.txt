@@ -1,0 +1,13 @@
+Title,Time,Artist,Type,Genre,Date
+Eis,2:47,IU(Feat.SUGA of BTS),Single,Rock/Metal,2020.05.06
+Nabiwa goyang-i,3:07,Bolppalgansachungi(Feat.baeghyeon),EP,Indie/Fork/Blues,2020.05.13
+Aroha,4:05,Jojeongseok,OST,Ballade,2020.03.27
+Joh-eun salam iss-eumyeon sogae sikyeojwo,3:03,JOY,OST,Ballade,2020.03.20
+Saljjag seolless-eo(Nonstop),3:22,Ohmygirl,EP,Dance/Ballade,2020.04.27
+Start,3:22,Gaho,OST,Drama/Rock/Metal,2020.02.01
+ON,4:06,BTS,Jeong-gyu,Rap/Hiphop,2020.02.21
+Dumhdurum,3:28,Apink,EP,Dance/Ballade,2020.04.13
+Happy,3:41,Taeyeon,Single,R&B/Soul,2020.05.04
+Uli mannam-i,4:09,PaulKim,Jeong-gyu,R&B/Soul,2020.04.22
+Gang,3:08,rain,EP,Rap/Hiphop,2017.12.01
+happybirthday,3:00,yangyunji,single,pop,2020-06-14

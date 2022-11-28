@@ -1,0 +1,15 @@
+Bridge 패턴 - 구현부에서 추상층을 분리하여 각자 독립적으로 변형할 수 있게 하는 패턴이다.
+                   즉, 기능과 구현을 별도의 클래스로 정의해서 서로를 분리하는 방법
+
+
+
+- PlaySystem 클래스와 PlayHandler 클래스는 추상화부분과, 실제 구현부분으로 구분하여
+설계하였다.
+
+- 추상화부분인 normalwork, randomwork 클래스는 playSystem클래스에서 상속받아 각각
+클래스에서 부분적으로 변경되어 사용된다.
+
+- PlayHandler의 구상클래스가 변경되어 각각 normalplay, randomplay 클래스로 구현된다.
+ normalplay에서는 일반재생 메소드가 실행되고 , randomplay에서는 랜덤재생 메소드가 실행된다
+
+- PlayHandler 클래스는 PlaySystem클래스에 의존하여 코딩된다.

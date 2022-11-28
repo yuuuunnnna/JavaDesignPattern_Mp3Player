@@ -1,0 +1,19 @@
+커맨드 패턴은 요구사항을 객체로 캡슐화 하여 요청이 서로다른 사용자를 매개변수로 만들고, 요청을
+대기시키거나 로깅하며, 되돌릴 수 있는 연산을 지원합니다.
+
+커맨드 패턴은 식당을 예시로 들면 편합니다.
+손님이 메뉴판을 보고 서버에게 원하는 메뉴를 알려주면, 서버는 주방장에게 메뉴에 대한 주문서를 전달하여 요리를 시작합니다.
+
+여기서 손님은 클라이언트(메인 클래스), 서버는 Invoker(호출자), 주문서는 Command객체, 주방장은 Receiver(수신자),
+setCommand는 손님이 서버에게 주문을 하는 것, execute는 주문을 주방장에게 요청하는 것이라고 예시를 들 수 있습니다.
+물론 교재에서 나온거 처럼 TV 리모콘을 디자인 패턴으로 구현한 것도 같은 말입니다.
+
+PlayList 클래스가 Invoker(호출자), 
+addDeleteMyList, addDeleteMyMusic, showMyList가 Receiver(수신자) 
+addMusicList, deleteMusicList, addMusicOnList, deleteMusicOnList, showMusicList, showList가 주문서들 (Command객체)
+메인 클래스가 클라이언트라고 할 수 있습니다.
+
+PlayList는 주문서들을 들고 수신자 클래스들에게 찾아갑니다. 그러면 그 기능에맞는 것들을 수신자 클래스에서 자신들이
+할 수 있는 기능들에 대한 메서드들을 실행 시킵니다.
+
+

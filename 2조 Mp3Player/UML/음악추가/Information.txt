@@ -1,0 +1,8 @@
+builder패턴은 여러 개의 작은 객체로 구성된 복합 객체를 생성하기 위한 패턴이다.
+
+Director 클래스가 추상화된 AbstractBuilder 클래스를 참조해 각 Product를 생성한다.
+AbstractBuilder 클래스는 상속받은 ConcreteBuilder들의 필요한 인터페이스들을
+재정의해 각 Product들을 생성 시킨다.
+
+Director 클래스는 BuilderPattern,  AbstractBuilder클래슨 Musicinformation,
+ConcreteBuilder클래스는 MusicinformationBuilder, Product는 Music이된다.
